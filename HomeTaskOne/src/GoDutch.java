@@ -15,10 +15,10 @@ public class GoDutch {
                     result = (float) ((score + score * 0.10) / friends);
                     System.out.println("З кожного по " + result);
                 }else{
-                    System.out.println("Bill total amount cannot be negative");
+                    System.out.print("Bill total amount cannot be negative");
                 }
             }else{
-                System.out.println("Number of friends cannot be negative or zero");
+                System.out.print("Number of friends cannot be negative or zero");
             }
         }
     }
